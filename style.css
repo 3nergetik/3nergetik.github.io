@@ -36,12 +36,6 @@ body {
         }
     }
 
-@media (max-height:1200px) {
-    .container {
-        max-height: 970px;
-    }
-}
-
 @media (max-width:1051px) {
     .container {
         max-width: 750px;
