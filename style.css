@@ -1,0 +1,188 @@
+/* Объявляем глобальные переменные */
+
+:root {
+    --pTextSize: 17px;
+    --borderSize: 1px solid; /* Рамка для удобства */
+}
+
+body {
+    margin: 0;
+    font-family: "DejaVu Sans Mono", "monospace", sans-serif;
+    font-size: 16px;
+    color: #222222;
+}
+
+/* Общий класс для всего содержимого */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+/* Класс для контейнера */
+.container {
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Медиазапросы для контейнера */
+@media (max-width:1350px) {
+    .container {
+        max-width: 970px;
+        }
+    }
+
+@media (max-height:1200px) {
+    .container {
+        max-height: 970px;
+    }
+}
+
+@media (max-width:1051px) {
+    .container {
+        max-width: 750px;
+        }   
+    }
+
+@media (max-width:821px) {
+        .container {
+            max-width: 600px;
+        }
+    }
+
+@media (max-width:661px) {
+        .container {
+            max-width: none;
+        }
+    }
+/* Выводим элементы в столбик */
+@media (max-width:661px) {
+    .cards_row {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:661px) {
+    .cards_column {
+        width: 100%;
+    margin: 15px;    }
+}
+
+@media (max-width:661px) {
+    .projectDescription {
+    text-align: justify;    }
+}
+
+/* Медиазапросы для контейнера */
+
+/* Карточки */
+.cards {
+    margin: 0 0 70px 0;
+}
+
+/* Название раздела */
+.cards_title {
+    font-size: 28px;
+}
+
+/* Медиазапросы для названия раздела */
+/* Уменьшаем название раздела */
+@media (max-width:661px) {
+    .cards_title {
+        font-size: 23px;
+    }
+}
+
+/* Строки */
+.cards_row {
+    margin: 0 -15px; 
+    display: flex;
+}
+
+/* Столбцы */
+.cards_column {
+    border: var(--borderSize); 
+    flex: 0 1 33.333%; 
+    padding: 0 15px;
+    }
+
+.cards_item {}
+
+.cards_image {margin: 0 0 20px 0;}
+
+/* Картинки в карточках */
+.cards_image img {max-width: 100%;}
+
+.cards_body {}
+
+/* Класс для хидера */
+.header {
+    border: var(--borderSize);
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+/* Медиазапросы для хидера */
+/* Сворачиваем хиред до логотипа и бургера */
+@media {
+    .header {
+
+    }
+}
+
+@media {
+    .header {
+
+    }
+}
+
+/* Медиазапросы для хидера */
+
+/* Подвал */
+.footer {
+    border: var(--borderSize);
+}
+
+/* Медиазапросы для подвала */
+/* Сворачиваем футер до одной кнопки с меню */
+@media {
+    .footer {} 
+}
+
+@media {
+    .footer {}
+}
+
+/* Медиазапросы для подвала */
+/* Подвал */
+
+.about {
+    border: var(--borderSize);
+}
+
+/* Описание проекта */
+.projectDescription {
+    font-size: 15px;
+    text-align: left;
+}
+
+/* Название проекта */
+.projectName {
+    font-weight: bold;
+}
+
+/* Описание кнопки */
+.projectButton {
+    border: none;
+    background-color: yellow; 
+    padding: 10px; 
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
