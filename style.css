@@ -2,7 +2,7 @@
 
 :root {
     --pTextSize: 17px;
-    --borderSize: 1px solid; /* Рамка для удобства */
+    --borderSize: none; /* Рамка для удобства */
 }
 
 body {
