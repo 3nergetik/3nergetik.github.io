@@ -79,6 +79,9 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+.header_button_item:focus {
+    outline: none;
+}
 
 .menuList
 {
@@ -274,11 +277,15 @@ ________________________________________________________________________________
     font-size: 15px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     line-height: normal;
     display: flex;
     justify-content: center;
+}
+
+.projectButton:focus {
+    outline: none;
 }
 
 @media (max-width:665px) {
