@@ -36,6 +36,7 @@ body {
 	width: 100%;
 	z-index: 1;
 	text-align: center;
+	min-width: 1200px;
 }
 
 .header::after {
@@ -432,6 +433,7 @@ body {
 .footer {
 	width: 100%;
   text-align: center;
+	min-width: 1200px;
 }
 
 .footer-main {
