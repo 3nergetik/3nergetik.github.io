@@ -430,6 +430,7 @@ h5 {
 
 .footer {
 	width: 100%;
+	min-width: 1200px;
 }
 
 .footer-main {
@@ -485,4 +486,16 @@ h5 {
 .footer-copyright-link {
 	text-decoration: none;
 	color: #999999;
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:350px) {
+
 }
