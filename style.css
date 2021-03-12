@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-	padding: 25px 0;
+	padding: 25px 0 125px 0;
 	position: relative;
 	background-image: url('https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg');
 	background-position: center center;
@@ -34,10 +34,8 @@ body {
 	background-size: cover;
 	background-color: black;
 	width: 100%;
-	height: 450px;
 	z-index: 1;
 	text-align: center;
-	min-width: 1200px;
 }
 
 .header::after {
@@ -55,7 +53,8 @@ body {
 .container {
 	width: 1200px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-body {
@@ -70,7 +69,7 @@ body {
 
 .header-title {
 	width: 60%;
-	margin-top: 50px;
+	margin-top: 45px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 45px;
@@ -101,24 +100,22 @@ body {
 
 .header-menu-item:not(:first-child) {
   margin-left: 32px;
-  }
+}
 
 .main-content {
 	display: flex;
   flex-direction: row;
 	justify-content: space-between;
-	padding-top: 64px;
-	padding-bottom: 64px;
-	align-items: flex-start;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .articles {
-	width: 780px;
+  width: 780px;
 }
 
 .articles-item {
 	display: flex;
-	flex-direction: row;
 }
 
 .articles-item:not(:last-child) {
@@ -153,7 +150,8 @@ body {
 	transition: all 0.3s ease;
 }
 
-.articles-logo {
+.logo-img {
+  display: block;
 	width: 380px;
 }
 
@@ -164,11 +162,11 @@ body {
 	font-size: 14px;
 	font-family: "OpenSans-Bold";
 	color: #b59f5a;
+  margin-bottom: 7px;
 }
 
 .articles-title {
-  padding-top: 10px;
-  padding-bottom: 30px;
+  margin-bottom: 29px;
 	text-transform: uppercase;
 	font-size: 20px;
 	line-height: 24px;
@@ -176,8 +174,9 @@ body {
 }
 
 .articles-data {
+  display: block;
 	font-size: 12px;
-	padding-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 .data {
@@ -192,18 +191,16 @@ body {
 }
 
 .articles-main {
+  display: block;
 	font-size: 15px;
 	line-height: 22px;
-}
-
-.articles-main:not(:first-child) {
-	margin-top: 18px;
+  margin-top: 15px;
 }
 
 .side {
 	display: block;
-	width: 272px;
-	margin-left: 120px;
+  width: 270px;
+  margin-left: 120px;
 }
 
 .side-header {
@@ -212,65 +209,68 @@ body {
 }
 
 .side-section-title {
-	position: relative;
-	margin-top: 0;
-	margin-bottom: 40px;
+  position: relative;
 	text-align: center;
 	font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 40px;
 	text-transform: uppercase;
 	font-family: 'OpenSans-Bold';
-}
-
-.side-header:not(:first-child) {
-  margin-top: 50px;
 }
 
 .side-section-title::after {
 	display: block;
 	content: '';
 	position: absolute;
-	margin: 0 auto;
-	margin-bottom: 7px;
+	margin: 0 auto 7px;
 	height: 3px;
 	width: 70px;
 	background-color: #b59f5a;
 	opacity: 0.3;
-	left: 103px;
+	left: 102px;
   top: 29px;
+}
+
+.side-header:not(:first-child) {
+  margin-top: 60px;
 }
 
 .side-section {
 	display: block;
-	width: 272px;
 }
 
 .side-section:not(:first-child) {
-  margin-top: 58px;
+  margin-top: 55px;
 }
 
 .posts-item {
 	display: flex;
-	margin-top: 20px;	
 }
 
-.posts-img {
+.posts-item:not(:last-child) {
+  margin-bottom: 21px;	
+}
+
+.posts-img-item {
+  display: block;
 	width: 70px;
-	height: 70px;
-	margin-right: 15px;
+  height: 70px;
+	margin-right: 18px;
 }
 
 .posts-content {
-	display: flex;
+  display: flex;
   flex-direction: column;
 }
 
 .posts-content-data {
 	color: #888888;
 	font-size: 12px;
-  margin-top: 0;
+  line-height: 8px;
 }
 
-h5 {
+.post-title {
+  margin-top: 4px;
 	font-size: 14px;
 	line-height: 18px;
 	font-family: 'OpenSans-Bold';
@@ -293,12 +293,10 @@ h5 {
 }
 
 .search-form {
-	box-sizing: border-box;	
 	width: 100%;
 	background-color: #f5f7f6;
 	border: none;
-	height: 50px;
-	padding-left: 20px;
+	padding: 16px 20px;
 	vertical-align: middle;
 }
 
@@ -313,8 +311,8 @@ h5 {
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 48px;
+	height: 48px;
 	border: none;
 	top: 0;
 	right: 0;
@@ -330,17 +328,13 @@ h5 {
 	outline: none;
 }
 
-.email-form {
-}
-
 .email-field {
 	box-sizing: border-box;
 	position: relative;
 	background-color: #f5f7f6;
 	border: none;
 	width: 100%;
-	height: 50px;
-	padding-left: 20px;
+	padding: 16px 20px;
 	vertical-align: middle;
 	font-famiy: inherit;
 }
@@ -352,7 +346,7 @@ h5 {
 .side-button {
 	display: block;
 	width: 100%;
-	height: 50px;
+  padding: 6px 20px;
 	font-size: 14px;
 	color: white;
 	line-height: 40px;
@@ -383,45 +377,52 @@ h5 {
 
 .tags-item {
 	list-style: none;
+  display: block;
+  text-transform: uppercase;
+  font-family: 'OpenSans-Bold';
+  border: 3px solid #f5f7f6;
+  padding: 5px 13px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.tags-item:not(:last-child) {
+  margin-right: 7px;
 }
 
 .tags-item-link {
-	display: block;
-	text-transform: uppercase;
-  font-family: 'OpenSans-Bold';
-  border: 3px solid #f5f7f6;
-  padding: 4px 13px;
-  margin-right: 7px;
-  font-size: 12px;
-  color: black;
   text-decoration: none;
-  margin-bottom: 10px;
+  color: black;
 }
 
-.tags-item-link:hover {
+.tags-item:hover {
 	border: 3px solid #b59f5a;
 	transition: all 0.3s ease;
 }
 
 .themes {
   display: flex;
-	border-bottom: 1px solid #f5f7f6;
-	padding: 15px 0;
+	border-bottom: 2px solid #f5f7f6;
+  padding-bottom: 13px;
 }
 
-.themes a {
+.themes:not(:first-child) {
+  padding-top: 11px;
+}
+
+.themes-item {
 	text-decoration: none;
   font-family: 'OpenSans-Bold';
   color: black;
   display: block;
 }
 
-.themes a:hover {
+.themes-item:hover {
 	color: #b59f5a;
 	transition: all 0.3s ease;
 }
 
-.themes span {
+.themes-count {
   margin-left: 4px;
   color: #b59f5a;
   font-family: 'OpenSans-Bold';
@@ -430,11 +431,10 @@ h5 {
 
 .footer {
 	width: 100%;
-	min-width: 1200px;
+  text-align: center;
 }
 
 .footer-main {
-	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -476,32 +476,11 @@ h5 {
 	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
 }
 
-.footer-copyright {
-	text-align: center;
-	padding: 73px 15px 40px;
-	font-size: 12px;
-	font-family: 'OpenSans-Bold';
-}
-
 .footer-copyright-link {
+  font-family: 'OpenSans-Bold';
+  font-size: 12px;
+  display: block;
 	text-decoration: none;
 	color: #999999;
-}
-
-@media (max-width:1200px) {
-
-}
-
-@media (max-width:768px) {
-  .header-title {
-    width: 85%;
-    font-size: 60px;
-  }
-  .container {
-    padding: 0 30px;
-  }
-}
-
-@media (max-width:360px) {
-
+  margin: 73px 0 40px;
 }
