@@ -36,7 +36,6 @@ body {
 	width: 100%;
 	z-index: 1;
 	text-align: center;
-	min-width: 1200px;
 }
 
 .header::after {
@@ -62,10 +61,45 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+  position: relative;
 }
 
 .header-logo {
 	width: 180px;
+}
+
+.header-burger {
+  display: none;
+  position: relative;
+  width: 22px;
+  height: 18px;
+}
+
+.header-burger-item,
+.header-burger::before,
+.header-burger::after {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.header-burger::before,
+.header-burger::after {
+  content: '';
+}
+
+.header-burger::before {
+  top: 1px;
+}
+
+.header-burger::after {
+  bottom: 6px;
+}
+
+.header-burger-item {
+  top: 17px;
 }
 
 .header-title {
@@ -103,6 +137,44 @@ body {
   margin-left: 32px;
 }
 
+.trend {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.trend-item {
+  flex-basis: 25%;
+  display: block;
+  padding: 5px;
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.garden {
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend1.jpg);
+  
+}
+
+.cheese {
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend2.jpg);
+}
+
+.tour {
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend3.jpg);
+}
+
+.lemon {
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend4.jpg);
+}
+
 .main-content {
 	display: flex;
   flex-direction: row;
@@ -112,7 +184,7 @@ body {
 }
 
 .articles {
-  width: 780px;
+  width: 70%;
 }
 
 .articles-item {
@@ -200,7 +272,7 @@ body {
 
 .side {
 	display: block;
-  width: 270px;
+  width: 25%;
   margin-left: 120px;
 }
 
@@ -430,10 +502,17 @@ body {
   font-size: 12px;
 }
 
+.goods {
+
+}
+
+.goods-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .footer {
 	width: 100%;
   text-align: center;
-	min-width: 1200px;
 }
 
 .footer-main {
@@ -485,4 +564,64 @@ body {
 	text-decoration: none;
 	color: #999999;
   margin: 73px 0 40px;
+}
+
+@media (max-width:1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .header-logo {
+    width: 157px;
+  }
+  .header-title {
+    margin-top: 100px;
+    padding: 0;
+    width: 92%;
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .articles {
+    width: 55%;
+  }
+  .articles-item {
+    flex-direction: column;
+    border-bottom: 3px solid red;
+  }
+  .articles-body {
+    margin: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .logo-img {
+    width: 100%;
+  }
+  .side {
+    width: 40%;
+    margin-left: 35px;
+  }
+  .footer {
+  }
+  .container {
+    width: 100%;
+    padding: 50px 35px;
+  }
+  nav {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+    margin-right: 12px;
+  }
+  .side-section-title {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width:360px) {
+
 }
