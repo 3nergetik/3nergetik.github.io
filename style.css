@@ -493,10 +493,13 @@ h5 {
 }
 
 @media (max-width:768px) {
-	header-title {
-	width: 80%;
-	font-size: 60px;
-	}
+  .header-title {
+    width: 85%;
+    font-size: 60px;
+  }
+  .container {
+    padding: 0 30px;
+  }
 }
 
 @media (max-width:360px) {
