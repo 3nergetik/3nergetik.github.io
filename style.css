@@ -536,6 +536,9 @@ body {
   border: 2px solid #b59f5a;
   padding: 50px;
   flex-basis: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .goods-item:not(:last-child) {
