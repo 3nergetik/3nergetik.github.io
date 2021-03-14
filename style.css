@@ -15,6 +15,7 @@
 }
 
 body {
+  position: relative;
   font-family: 'OpenSans-Regular';
 }
 
@@ -36,6 +37,87 @@ body {
 	width: 100%;
 	z-index: 1;
 	text-align: center;
+}
+
+.popup {
+  top: -100%;
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 20px 15px;
+  text-align: left;
+}
+
+.active {
+  transition: all 0.3s ease;
+  top: 20px;
+}
+
+.lock {
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.popup-form {
+  background-color: #fff;
+  padding: 0 25px 25px;
+}
+
+.popup-select {
+  margin-top: 10px;
+  width: 100%;
+	background-color: #f5f7f6;
+	border: none;
+	padding: 16px 20px;
+	vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+.popup-checkbox {
+
+}
+
+.popup-input {
+  padding: 16px 20px;
+  margin-top: 10px;
+  background-color: #f5f7f6;
+  border: none;
+  width: 100%;
+  height: 170px;
+}
+
+.popup-text {
+  text-align: left;
+}
+
+.popup-close {
+  width: 30px;
+  height: 30px;
+}
+
+.popup-close::before,
+.popup-close::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  height: 2px;
+  width: 30px;
+  right: 0;
+  top: 10px;
+}
+
+.popup-close::before {
+  transform: rotate(45deg);
+}
+
+.popup-close::after {
+  transform: rotate(-45deg);
 }
 
 .header::after {
@@ -84,6 +166,7 @@ body {
   height: 3px;
   background-color: #fff;
   margin: 0 auto;
+  left: 0;
 }
 
 .header-burger::before,
@@ -136,6 +219,10 @@ body {
 
 .header-menu-item:not(:first-child) {
   margin-left: 32px;
+}
+
+.header ~ .side-section-title {
+  margin-top: 50px;
 }
 
 .trend {
@@ -311,6 +398,8 @@ body {
 	font-size: 14px;
   line-height: 18px;
   margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
 	text-transform: uppercase;
 	font-family: 'OpenSans-Bold';
 }
@@ -321,11 +410,11 @@ body {
 	position: absolute;
 	margin: 0 auto 7px;
 	height: 3px;
-	width: 70px;
 	background-color: #b59f5a;
 	opacity: 0.3;
-	left: 102px;
-  top: 29px;
+  top: 27px;
+  left: 0;
+  right: 0;
 }
 
 .side-header:not(:first-child) {
@@ -527,21 +616,25 @@ body {
 }
 .goods {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   padding-bottom: 50px;
   align-items: stretch;
+  justify-content: space-between;
 }
 
 .goods-item {
   border: 2px solid #b59f5a;
   padding: 50px;
-  flex-basis: 31%;
+  flex-basis: 30%;
   display: flex;
   flex-direction: column;
+  position: relative;
   justify-content: space-between;
 }
 
-.goods-item:not(:last-child) {
+.goods-img {
+  margin-bottom: 25px;
+  width: 60%;
 }
 
 .goods-price {
@@ -584,7 +677,6 @@ body {
 	cursor: pointer;
 	background-color: #323232;
 	transition: all 0.3s ease;
-}
 }
 
 .footer {
@@ -635,6 +727,7 @@ body {
 }
 
 .footer-copyright-link {
+  text-align: center;
   font-family: 'OpenSans-Bold';
   font-size: 12px;
   display: block;
@@ -646,6 +739,8 @@ body {
 @media (max-width:1200px) {
   .container {
     width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -693,11 +788,6 @@ body {
   }
   .header-burger {
     display: block;
-    margin-right: 12px;
-  }
-  .side-section-title {
-    margin-left: auto;
-    margin-right: auto;
   }
   .trend {
     flex-wrap: wrap;
@@ -707,9 +797,16 @@ body {
   }
   .goods {
     flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 0;
   }
   .goods-item {
+    position: relative;
     flex-basis: 48%;
+    padding: 50px 25px;
+  }
+  .goods-item:first-child {
+    margin-right: 4%;
   }
   .goods-item:last-child {
     margin-top: 4%;
@@ -738,6 +835,7 @@ body {
     margin-left: auto;
   }
   .header-title {
+    width: 100%;
     font-size: 26px;
     line-height: 36px;
     margin-top: 40px;
@@ -748,6 +846,9 @@ body {
   }
   .trend-item:not(:last-child) {
     margin-bottom: 4px;
+  }
+  .trend-item:last-child {
+    margin-bottom: 45px;
   }
   .title-link.white {
     font-size: 16px;
@@ -760,8 +861,8 @@ body {
     width: 100%;
   }
   .articles-item:not(:last-child) {
-    margin-bottom: 24px;
-    padding-bottom: 24px;
+    margin-bottom: 23px;
+    padding-bottom: 23px;
   }
   .articles-title {
     font-size: 16px;
@@ -778,15 +879,19 @@ body {
     width: 100%;
     margin-left: 0;
   }
-  .side-section-title::after {
-    width: 156px;
-    left: 83px;
+  .side-section-title {
+    margin-top: 50px;
   }
   .goods {
+    width: 100%;
     flex-direction: column;
+    justify-content: center;
   }
   .goods-item {
     padding: 20px;
+  }
+  .goods-item:first-child {
+    margin-right: 0;
   }
   .goods-item:not(:last-child) {
     margin-bottom: 20px;
