@@ -8,7 +8,23 @@
     <title>Document</title>
 </head>
 <body>    
+  <div class="popup">
+    <div class="popup-close">
+    </div>
+    <div class="popup-form">
+      <h2 class="side-section-title">ваш фидбэк</h2>
+      <p class="popup-text">Как часто вы заходите на сайт</p>
+      <input type="text" class="popup-select">
+      <p class="popup-text">Вы подписаны на e-mail рассылку?</p>
+      <input type="checkbox" class="popup-checkbox">
+      <input type="checkbox" class="popup-checkbox">
+      <p class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте</p>
+      <input type="text" class="popup-input">
+      <button class="side-button">Отправить</button>
+    </div>
+  </div>
   <header class="header">
+    
     <div class="container">
       <div class="header-body">
         <div class="header-logo">
@@ -293,36 +309,39 @@
   </div>
   <h2 class="side-section-title">наши изделия</h2>
   <section class="goods container">
-        <div class="goods-item">
-            <h2 class="articles-title">
-              <a href="#0" class="title-link">
-                подушки на диван
-              </a>
-            </h2>
-            <p class="articles-main">
-              Набор из двух подушек с модными принтами
-            </p>
-            <div class="goods-price">
-              <div class="price">
-                <span class="old-price">
-                  1000 Р
-                </span>
-                <span class="new-price">
-                  800 Р
-                </span>
-              </div>
-              <button class="goods-button">в магазин</button>
-            </div>
+    <div class="goods-item">
+      <img class="goods-img" src="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-desk1.jpg" alt="">
+      <h2 class="articles-title">
+        <a href="#0" class="title-link">
+          подушки на диван
+        </a>
+      </h2>
+      <p class="articles-main">
+        Набор из двух подушек с модными принтами
+      </p>
+      <div class="goods-price">
+        <div class="price">
+          <span class="old-price">
+            1000 Р
+          </span>
+          <span class="new-price">
+            800 Р
+          </span>
         </div>
-        <div class="goods-item">
-          <h2 class="articles-title">
-            <a href="#0" class="title-link">
-              кукла "зайчик"
-            </a>
-          </h2>
-          <p class="articles-main">
-            Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена весенняя серия постов в блоге и несколько подкастов.          </p>
-          <div class="goods-price">
+        <button class="goods-button">в магазин</button>
+      </div>
+    </div>
+    <div class="goods-item">
+      <img class="goods-img" src="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-desk1.jpg" alt="">
+      <h2 class="articles-title">
+        <a href="#0" class="title-link">
+          кукла "зайчик"
+        </a>
+      </h2>
+      <p class="articles-main">
+        Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена весенняя серия постов в блоге и несколько подкастов.          
+      </p>
+      <div class="goods-price">
             <div class="price">
               
               <span class="new-price">
@@ -330,15 +349,19 @@
               </span>
             </div>
             <button class="goods-button">в магазин</button>
-          </div>
       </div>
-      <div class="goods-item">
+    </div>
+
+    <div class="goods-item">
+        <img class="goods-img" src="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-desk1.jpg" alt="">
         <h2 class="articles-title">
           <a href="#0" class="title-link">
-            подушки на диван
+            шестиугольная рамка
           </a>
         </h2>
-        <p class="articles-main">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города...Музеи еще закрыты. Что посмотреть?</p>
+        <p class="articles-main">
+          Необычная рамка для украшения дома из видео Как сделать рамку из подручных средств за 30 минут
+        </p>
         <div class="goods-price">
           <div class="price">
             <span class="old-price">
@@ -351,6 +374,7 @@
           <button class="goods-button">в магазин</button>
         </div>
     </div>
+
   </section>
   <footer class="footer">
         <ul class="footer-main">
@@ -382,5 +406,6 @@
         </ul>
         <a href="#0" class="footer-copyright-link">Copyright © 2009–2019 City Blog LLC.</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
