@@ -2,11 +2,12 @@ const headerBurger = document.querySelector('.header-burger');
 const popup = document.querySelector('.popup');
 const popupClose = document.querySelector('.popup-close');
 const sideButton = document.querySelector('.side-button');
-const body = document.querySelector('body');
+const header = document.querySelector('.header');
 
 headerBurger.onclick = () => {
   popup.classList.add('active');
   body.classList.add('lock');
+  header.classList.add('dark');
 }
 
 popupClose.onclick = () => {
