@@ -898,9 +898,6 @@ body {
   .goods-item:not(:last-child) {
     margin-bottom: 4%;
   }
-  .footer {
-    text-align: center;
-  }
 }
 
 @media (max-width:540px) {
@@ -995,8 +992,5 @@ body {
   }
   .goods-item:last-child {
     margin-top: 0;
-  }
-  .footer {
-    text-align: center;
   }
 }
