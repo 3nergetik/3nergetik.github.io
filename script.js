@@ -7,8 +7,12 @@ const body = document.querySelector('body');
 const headerMenu = document.querySelector('.header-menu');
 const delay_popup = 5000;
 
-setTimeout("popup.style.top='0'", delay_popup);
+const showModal = () => {
+  popup.classList.add('active');
+  body.classList.add('lock');
+}
 
+setTimeout(showModal, delay_popup);
 
 headerBurger.onclick = () => {
   nav.classList.toggle('show-menu');
@@ -18,11 +22,12 @@ headerBurger.onclick = () => {
 }
 
 popupClose.onclick = () => {
-  popup.style.top='-100%';
-  body.classList.toggle('lock');
+  popup.classList.remove('active');
+  body.classList.remove('lock');
 }
 
-sideButton.onclick = () => {
-  popup.style.top='-100%';
-  body.classList.toggle('lock');
+sideButton.onclick = (evt) => {
+  evt.preventDefault();
+  popup.classList.remove('active');
+  body.classList.remove('lock');
 }
