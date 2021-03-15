@@ -11,20 +11,26 @@
   <div class="popup">
     <div class="popup-close">
     </div>
-    <div class="popup-form">
+    <form class="popup-form">
       <h2 class="side-section-title">ваш фидбэк</h2>
       <p class="popup-text">Как часто вы заходите на сайт</p>
-      <input type="text" class="popup-select">
+      <select type="text" class="popup-select">
+        <option value="almost-everyday" class="popup-text" selected>Почти каждый день</option>
+      </select>
       <p class="popup-text">Вы подписаны на e-mail рассылку?</p>
       <label for="yes" class="popup-label">
-        <input type="checkbox" class="popup-checkbox" id="yes">
+        <input type="radio" class="popup-radio" id="yes" name="popup-radio" required checked>
+        <span class="checkbox-text popup-text">Да</span>
       </label>
-      <label for="no" class="popup">
-        <input type="checkbox" class="popup-checkbox" id="no">
+      <label for="no" class="popup-label">
+        <input type="radio" class="popup-radio" id="no" name="popup-radio" required>
+        <span class="checkbox-text popup-text">Нет</span>
       </label>
+
       <p class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте</p>
       <input type="text" class="popup-input" placeholder="Может, побольше рецептов?">
       <button class="side-button">Отправить</button>
+    </form>
     </div>
   </div>
   <header class="header">
