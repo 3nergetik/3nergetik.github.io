@@ -51,12 +51,29 @@ body {
   flex-direction: column;
   margin: 10% auto;
   text-align: left;
-  transition: all 0.3s ease;
+  transition: 1s;
 }
 
 .active {
   transition: all 0.3s ease;
   top: 0;
+}
+
+.show-menu {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 1s;
+  width: 100%;
+}
+
+.show-menu-item {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .lock {
@@ -189,7 +206,7 @@ body {
 }
 
 .header-logo {
-	width: 180px;
+	width: 19%;
 }
 
 .header-burger {
@@ -228,6 +245,21 @@ body {
   top: 17px;
 }
 
+.header-burger.open-menu span {
+  opacity: 0; 
+  transition: 0.3s; 
+}
+.header-burger.open-menu:before {
+  transform: rotate(45deg);
+  transition: 0.3s;
+  top: 10px;
+}
+.header-burger.open-menu:after {
+  transform: rotate(-45deg);
+  transition: 0.3s;
+  top: 10px;
+}
+
 .header-title {
 	width: 60%;
 	margin-top: 45px;
@@ -246,6 +278,7 @@ body {
 .header-menu {
 	display: flex;
 	justify-content: space-between;
+  transition: 0.3s;
 }
 
 .header-menu-item {
@@ -802,6 +835,9 @@ body {
     padding-top: 10px;
     padding-bottom: 75px;
   }
+  .header-menu-item:nth-child(n + 2) {
+    margin: 18px 0 0;  
+  }
   .header-logo {
     width: 157px;
   }
@@ -837,6 +873,8 @@ body {
   }
   nav {
     display: none;
+    top: -100%;
+    transition: 0.5s;
   }
   .header-burger {
     display: block;
@@ -868,7 +906,7 @@ body {
 @media (max-width:540px) {
   .popup {
     width: 90%;
-    margin: 20px auto;
+    margin: 5% auto;
   }
   .container {
     padding: 30px 15px;
@@ -892,6 +930,9 @@ body {
     font-size: calc(26px - (19 + 19 * 0.7) * ((100vw - 360px) / 1200));
     line-height: 36px;
     margin-top: 40px;
+  }
+  .header-menu-item a {
+    font-size: 18px;
   }
   .trend-item {
     flex-basis: 100%;
@@ -940,11 +981,11 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  .goods-img {
-    width: 100%;	
-  }
   .goods-item {
     padding: 20px;
+  }
+  .goods-img {
+    width: 100%;
   }
   .goods-item:first-child {
     margin-right: 0;
