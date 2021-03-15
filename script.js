@@ -2,19 +2,27 @@ const headerBurger = document.querySelector('.header-burger');
 const popup = document.querySelector('.popup');
 const popupClose = document.querySelector('.popup-close');
 const sideButton = document.querySelector('.side-button');
-const header = document.querySelector('.header');
+const nav = document.querySelector('nav');
+const body = document.querySelector('body');
+const headerMenu = document.querySelector('.header-menu');
+const delay_popup = 5000;
+
+setTimeout("popup.style.top='0'", delay_popup);
+
 
 headerBurger.onclick = () => {
-  popup.classList.add('active');
-  body.classList.add('lock');
-  header.classList.add('dark');
+  nav.classList.toggle('show-menu');
+  headerMenu.classList.toggle('show-menu-item');
+  body.classList.toggle('lock');
+  headerBurger.classList.toggle('open-menu');
 }
 
 popupClose.onclick = () => {
-  popup.classList.remove('active');
-  body.classList.remove('lock');
+  popup.style.top='-100%';
+  body.classList.toggle('lock');
 }
 
 sideButton.onclick = () => {
-  popup.classList.remove('active');
+  popup.style.top='-100%';
+  body.classList.toggle('lock');
 }
