@@ -1,5 +1,4 @@
 /* mobile css */
-#navi {
-  display: none;
+#navi li a {
   color: red;
 }
