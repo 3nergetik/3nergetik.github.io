@@ -1,4 +1,8 @@
 /* mobile css */
-#navi li a {
-  color: red;
+@media (max-width:768px) {
+  
+}
+
+@media (max-width:540px) {
+  
 }
