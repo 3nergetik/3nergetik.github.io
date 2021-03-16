@@ -130,9 +130,10 @@
     margin: 20px;
   }
   div.ay h1 {
-    text-align: center;
     margin-left: 0;
     margin-bottom: 20px;
+    line-height: 1;
+    font-size: 26px;
   }
   div.ay img {
     display: none;
