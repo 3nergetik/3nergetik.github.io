@@ -15,4 +15,4 @@ pcInfo.appendChild(dropdownActions);
 
 /* close.innerHTML = closeSvg; */
 
-console.log(close);
+console.log(closeSvg);
