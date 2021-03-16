@@ -207,6 +207,23 @@
   .vpnremote li {
     flex-basis: 50%;
   }
+  footer {
+    position: relative;
+  }
+  footer > div {
+    width: unset;
+    min-width: unset;
+    max-width: unset;
+    padding: 0;
+    margin: 0;
+    text-align: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.hbuttons {
+    position: static;
+  }
 }
 
 @media (max-width:540px) {
