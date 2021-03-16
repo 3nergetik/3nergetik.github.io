@@ -216,7 +216,7 @@
   footer {
     position: relative;
   }
-  footer > div {
+  .footer > div {
     width: unset;
     min-width: unset;
     max-width: unset;
