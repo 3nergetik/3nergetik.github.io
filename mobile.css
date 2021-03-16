@@ -123,6 +123,8 @@
     padding: 0;
   }
   .div.pcinfo {
+    width: 100%;
+    height: none;
     margin: 0;
   }
   .div.pcinfo>h3 {
