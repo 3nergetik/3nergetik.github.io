@@ -54,7 +54,7 @@
     min-width: unset;
   }
   .content_wrapper > div {
-    width: none;
+    width: 100%;
     min-width: unset;
     max-width: unset;
   }
