@@ -256,6 +256,9 @@
   .autoreplywrapper.ecal {
     padding: 5px;
   }
+  div.modalcloser {
+    padding: 0;
+  }
   footer {
     position: relative;
   }
