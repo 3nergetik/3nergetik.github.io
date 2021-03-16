@@ -113,8 +113,12 @@
     left: 0;
     transition: 0.3s;
   }
+  #navi li {
+    padding: 15px;
+  }
   #navi li.active {
     top: 0;
+    padding: 15px;
   }
   .header > div > p {
     display: none;
