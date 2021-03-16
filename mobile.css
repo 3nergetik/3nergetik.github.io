@@ -59,6 +59,13 @@
   #closeadmpanel {
     position: relative;  
   }
+  #avatar {
+    margin: 0;
+  }
+  #closeadmpanel {
+    top: 0;
+    right: 0;
+  }
 }
 
 @media (max-width:540px) {
