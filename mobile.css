@@ -134,6 +134,7 @@
     width: 100%;
     height: unset;
     margin: 0;
+    padding: 20px;
   }
   div.pcinfo>h3 {
     margin: 0;
