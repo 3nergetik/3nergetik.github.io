@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 const pcInfo = document.querySelector('div.pcinfo');
 const dropdownActions = document.querySelector('.dropdown-actions');
 const close = document.querySelector('#closeadmpanel > p');
-const closeSvg = document.querySelector('#closeadmpanel > p > svg > path');
+const closeSvg = document.querySelector('#closeadmpanel > p > svg');
 
 headerBurger.onclick = function () {
     headerBurger.classList.toggle('open-menu');
@@ -13,6 +13,6 @@ headerBurger.onclick = function () {
 }
 pcInfo.appendChild(dropdownActions);
 
-close.innerHTML = closeSvg;
+#close.innerHTML = closeSvg;
 
-console.log(closeSvg);
+console.log(close);
