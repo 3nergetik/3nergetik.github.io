@@ -139,6 +139,9 @@
   div.pcinfo svg.fa-desktop {
     position: static;
   }
+  div.pcinfo div.circle {
+    position: static;
+  }
   div.pcinfo {
     width: 100%;
     height: unset;
