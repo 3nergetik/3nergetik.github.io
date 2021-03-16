@@ -34,6 +34,10 @@
   bottom: 6px;
 }
 
+.header-burger > span {
+  top: 7px;
+}
+
 @media (max-width:768px) {
   .header > div {
     display: flex;
