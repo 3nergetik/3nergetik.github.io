@@ -40,7 +40,16 @@
 
 @media (max-width:768px) {
   body {
-  min-width: none;
+    min-width: none;
+  }
+  .content_wrapper > div {
+    width: none;
+    min-width: none;
+    max-width: none;
+    margin: 0;
+  }
+  .wrapper {
+    min-width: none;
   }
   .header > div {
     display: flex;
