@@ -232,6 +232,26 @@
     justify-content: center;
     align-items: center;
   }
+  div.modalcont2 {
+    min-width: unset;
+    padding: 20px;
+  }
+  .autoreplywrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  div.calevent {
+    margin: 0;
+    padding: 5px;
+  }
+  .ineedmodalplz.justblock {
+    margin: 0;
+  }
+  .autoreplywrapper.ecal {
+    padding: 5px;
+  }
   footer {
     position: relative;
   }
