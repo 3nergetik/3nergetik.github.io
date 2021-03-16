@@ -1,7 +1,7 @@
 const headerBurger = document.querySelector('.header-burger');
 const headerMenu = document.querySelector('.header-menu');
 const body = document.querySelector('body');
-const pcInfo = documen.querySelector('.pcinfo');
+const pcInfo = documen.querySelector('div.pcinfo');
 const dropdownActions = document.querySelector('.dropdown-actions');
 
 headerBurger.onclick = function () {
