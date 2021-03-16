@@ -78,6 +78,9 @@
   div.vpncont {
     width: 100%;
   }
+  #isotoped {
+    padding: 0;
+  }
 }
 
 @media (max-width:540px) {
