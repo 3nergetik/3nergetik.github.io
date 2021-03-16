@@ -125,6 +125,9 @@
   .div.pcinfo {
     margin: 0;
   }
+  .div.pcinfo>h3 {
+    margin: 0;
+  }
   .div.vpncont {
     margin: 0;
   }
