@@ -46,6 +46,11 @@
   top: 30px;
 }
 
+.header-burger.open-menu span {
+  opacity: 0;
+  transition: 0.3s;
+}
+
 .header-burger.open-menu:before {
   transform: rotate(45deg);
   transition: 0.3s;
