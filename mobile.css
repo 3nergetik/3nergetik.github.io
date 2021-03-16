@@ -298,6 +298,7 @@
   }
   #navi li {
     padding: 10px;
+    white-space: pre-wrap;
   }
   #navi li.active {
     padding: 10px;
