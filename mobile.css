@@ -122,6 +122,9 @@
   #isotoped {
     padding: 0;
   }
+  .div.vpncont {
+    margin: 0;
+  }
 }
 
 @media (max-width:540px) {
