@@ -22,11 +22,11 @@
 }
 
 ..header-burger::before {
-  
+  top: 1px;
 }
 
 .header-burger::after {
-
+  bottom: 6px;
 }
 
 @media (max-width:768px) {
