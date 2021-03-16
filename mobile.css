@@ -64,7 +64,7 @@
 }
 
 #navi.show-nav {
-  top: 60px;
+  left: 0;
 }
 
 @media (max-width:768px) {
@@ -109,8 +109,8 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: -100%;
-    left: 0;
+    top: 60px;
+    left: -120%;
     transition: 0.3s;
   }
   #navi li {
