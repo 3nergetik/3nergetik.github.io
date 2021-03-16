@@ -140,6 +140,12 @@
   .pcaction > svg {
     margin-top: 0;
   }
+  .dropdown-actions {
+    z-index: 3;
+    transform: scale(1);
+    position: static;
+    opacity: 1;
+  }
   div.vpncont {
     margin: 0;
   }
