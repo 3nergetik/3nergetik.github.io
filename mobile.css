@@ -263,7 +263,7 @@
     width: 100%;
     margin: 0;
   }
-  footer {
+  .footer {
     position: relative;
   }
   .footer > div {
