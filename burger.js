@@ -14,3 +14,4 @@ headerBurger.onclick = function () {
 pcInfo.appendChild(dropdownActions);
 
 close.innerHTML = '';
+close.appendChild(closeSvg);
