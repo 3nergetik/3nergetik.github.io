@@ -14,3 +14,5 @@ headerBurger.onclick = function () {
 pcInfo.appendChild(dropdownActions);
 
 close.innerHTML = closeSvg;
+
+console.log(closeSvg);
