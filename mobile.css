@@ -70,6 +70,9 @@
   html,body {
     min-width: unset;
   }
+  .content_wrapper {
+    padding: 20px 0;
+  }
   .content_wrapper > div {
     width: 100%;
     margin: 0 auto;
