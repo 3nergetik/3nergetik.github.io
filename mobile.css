@@ -132,8 +132,11 @@
   div.ay h1 {
     margin-left: 0;
     margin-bottom: 20px;
+    margin-top: 10px;
     line-height: 1;
     font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
   }
   div.ay img {
     display: none;
