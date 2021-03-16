@@ -296,4 +296,10 @@
   .ineedmodalplz.ema {
     width: 100%;
   }
+  #navi li {
+    padding: 10px;
+  }
+  #navi li.active {
+    padding: 10px;
+  }
 }
