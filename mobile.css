@@ -3,10 +3,6 @@
   min-width: unset;
 }
 
-.content_wrapper > div {
-  margin: 0; 
-}
-
 .header-burger {
   display: none;
   position: relative;
