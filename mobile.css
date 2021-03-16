@@ -161,6 +161,7 @@
     transform: scale(1);
     position: static;
     opacity: 1;
+    border-radius: 3px;
   }
   div.vpncont {
     margin: 0;
