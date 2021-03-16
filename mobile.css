@@ -27,7 +27,7 @@
 }
 
 .header-burger::before {
-  top: 1px;
+  top: 23px;
 }
 
 .header-burger::after {
