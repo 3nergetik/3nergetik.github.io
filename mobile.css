@@ -107,6 +107,7 @@
   }
   #navi {
     display: flex;
+    flex-direction: column;
     position: absolute;
     top: -100%;
     left: 0;
