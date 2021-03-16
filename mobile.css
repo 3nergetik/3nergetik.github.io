@@ -10,8 +10,8 @@
 .header-burger {
   display: none;
   position: relative;
-  width: 45px;
-  height: 30px;
+  width: 20px;
+  height: 16px;
 }
 
 .header-burger > span,
@@ -38,12 +38,12 @@
   top: 0;
 }
 
-.header-burger::after {
-  top: 30px;
+.header-burger > span {
+  top: 8px;
 }
 
-.header-burger > span {
-  top: 15px;
+.header-burger::after {
+  top: 16px;
 }
 
 .header-burger.open-menu span {
