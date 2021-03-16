@@ -13,4 +13,4 @@ headerBurger.onclick = function () {
 }
 pcInfo.appendChild(dropdownActions);
 
-close.replace('Выйти', '');
+close.innerHTML = closeSvg;
