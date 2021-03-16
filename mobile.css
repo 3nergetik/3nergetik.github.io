@@ -45,6 +45,9 @@
   body {
     min-width: none;
   }
+  html,body {
+    min-width: none;
+  }
   .content_wrapper > div {
     width: none;
     min-width: none;
