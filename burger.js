@@ -4,7 +4,7 @@ const body = document.querySelector('body');
 const pcInfo = document.querySelector('div.pcinfo');
 const dropdownActions = document.querySelector('.dropdown-actions');
 const close = document.querySelector('#closeadmpanel > p');
-const closeSvg = document.querySelector('#closeadmpanel > p > svg');
+const closeSvg = document.querySelector('#closeadmpanel > p > svg > path');
 
 headerBurger.onclick = function () {
     headerBurger.classList.toggle('open-menu');
