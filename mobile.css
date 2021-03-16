@@ -114,7 +114,7 @@
     transition: 0.3s;
   }
   #navi li {
-    padding: 15px;
+    padding: 20px;
   }
   #navi li.active {
     top: 0;
