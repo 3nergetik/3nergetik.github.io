@@ -208,6 +208,11 @@
     flex-basis: 50%;
     white-space: unset;
   }
+  .forvpnsteps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   footer {
     position: relative;
   }
