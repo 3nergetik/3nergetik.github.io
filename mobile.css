@@ -52,6 +52,9 @@
   .header > div > p {
     display: none;
   }
+  #closeadmpanel {
+    position: relative;  
+  }
 }
 
 @media (max-width:540px) {
