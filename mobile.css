@@ -136,6 +136,9 @@
   #isotoped {
     padding: 0;
   }
+  div.pcinfo svg.fa-desktop {
+    position: static;
+  }
   div.pcinfo {
     width: 100%;
     height: unset;
