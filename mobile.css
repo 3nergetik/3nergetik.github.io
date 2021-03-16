@@ -151,6 +151,11 @@
   .pcaction > svg {
     margin-top: 0;
   }
+  .pcinfo .tooltop {
+    padding: 0;
+    top: 20px;
+    right: 20px;
+  }
   .dropdown-actions {
     z-index: 3;
     transform: scale(1);
