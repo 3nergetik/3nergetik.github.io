@@ -32,6 +32,9 @@
   .header-burger {
     display: block;
   }
+  #navi {
+    display: none;
+  }
 }
 
 @media (max-width:540px) {
