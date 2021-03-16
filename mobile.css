@@ -181,7 +181,7 @@
   .pcaction > svg {
     margin-top: 0;
   }
-  .pcinfo .tooltop {
+  .pcinfo.tooltop {
     padding: 0;
     top: 20px;
     right: 20px;
