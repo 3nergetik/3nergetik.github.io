@@ -291,7 +291,7 @@
 
 @media (max-width:540px) {
   div.pcinfo > h3 {
-    white-space: nowrap;
+    white-space: pre-line;
   }
   .ineedmodalplz.ema {
     width: 100%;
