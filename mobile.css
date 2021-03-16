@@ -39,6 +39,9 @@
 }
 
 @media (max-width:768px) {
+  body {
+  min-width: none;
+  }
   .header > div {
     display: flex;
     justify-content: space-between;
