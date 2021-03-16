@@ -126,12 +126,12 @@
   #isotoped {
     padding: 0;
   }
-  .div.pcinfo {
+  div.pcinfo {
     width: 100%;
     height: none;
     margin: 0;
   }
-  .div.pcinfo>h3 {
+  div.pcinfo>h3 {
     margin: 0;
   }
   .pcactions {
@@ -140,7 +140,7 @@
   .pcaction > svg {
     margin-top: 0;
   }
-  .div.vpncont {
+  div.vpncont {
     margin: 0;
   }
   .vpnremote {
