@@ -1,6 +1,6 @@
 /* mobile css */
 .wrapper {
-  min-width: none;
+  min-width: unset;
 }
 .header-burger {
   display: none;
