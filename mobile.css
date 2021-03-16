@@ -1,4 +1,7 @@
 /* mobile css */
+.wrapper {
+  min-width: none;
+}
 .header-burger {
   display: none;
   position: relative;
