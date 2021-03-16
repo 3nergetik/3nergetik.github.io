@@ -75,6 +75,9 @@
   div.ay img {
     display: none;
   }
+  div.vpncont {
+    width: 100%;
+  }
 }
 
 @media (max-width:540px) {
