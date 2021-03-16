@@ -224,6 +224,12 @@
   div.hbuttons {
     position: static;
   }
+  div.hbuttons .ineedmodalplz {
+    padding: 0;
+  }
+  .ineedmodalplz {
+    margin: 0;
+  }
 }
 
 @media (max-width:540px) {
