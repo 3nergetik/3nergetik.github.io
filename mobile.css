@@ -18,10 +18,11 @@
   width: 30px;
   height: 3px;
   background-color: black;
+  margin: 0 auto;
 }
 
 ..header-burger::before {
-
+  
 }
 
 .header-burger::after {
