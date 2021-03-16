@@ -128,7 +128,7 @@
   }
   div.pcinfo {
     width: 100%;
-    height: none;
+    height: unset;
     margin: 0;
   }
   div.pcinfo>h3 {
