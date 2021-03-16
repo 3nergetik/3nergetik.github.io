@@ -35,15 +35,15 @@
 }
 
 .header-burger::before {
-  top: 32px;
+  top: 0;
 }
 
 .header-burger::after {
-  top: 4px;
+  top: 15px;
 }
 
 .header-burger > span {
-  top: 18px;
+  top: 30px;
 }
 
 @media (max-width:768px) {
