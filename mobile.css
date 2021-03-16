@@ -146,8 +146,7 @@
     margin: 0;
   }
   .pcactions {
-    position: static;
-    display: block;
+    display: none;
   }
   .pcaction > svg {
     margin-top: 0;
