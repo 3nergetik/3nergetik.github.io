@@ -43,8 +43,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: none;
+    min-width: 2%;
     max-width: none;
+    width: 92%;
   }
   .header_h1 {
     display: none;
