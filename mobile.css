@@ -236,6 +236,10 @@
     min-width: unset;
     padding: 20px;
   }
+  div.modalcont2.thous {
+    min-width: unset;
+    max-width: unset;
+  }
   .autoreplywrapper {
     margin: 0 auto;
     display: flex;
