@@ -112,7 +112,8 @@
     border: none;
   }
   #avatar img {
-    width: 100%;
+    width: unset;
+    height: unset;
   }
   #closeadmpanel {
     top: 0;
