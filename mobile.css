@@ -206,6 +206,7 @@
   }
   .vpnremote li {
     flex-basis: 50%;
+    white-space: unset;
   }
   footer {
     position: relative;
