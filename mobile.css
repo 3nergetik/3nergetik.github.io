@@ -89,6 +89,7 @@
     min-width: 2%;
     max-width: none;
     width: 92%;
+    height: 50px;
   }
   .header_h1 {
     display: none;
