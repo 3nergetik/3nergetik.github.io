@@ -72,6 +72,9 @@
     top: 0;
     right: 0;
   }
+  div.ay img {
+    display: none;
+  }
 }
 
 @media (max-width:540px) {
