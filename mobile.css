@@ -259,6 +259,9 @@
   div.modalcloser {
     padding: 0;
   }
+  div.usercard {
+    width: 100%;
+  }
   footer {
     position: relative;
   }
