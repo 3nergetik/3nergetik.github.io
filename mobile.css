@@ -43,19 +43,19 @@
 
 @media (max-width:768px) {
   body {
-    min-width: none;
+    min-width: unset;
   }
   html,body {
-    min-width: none;
+    min-width: unset;
   }
   .content_wrapper > div {
     width: none;
-    min-width: none;
-    max-width: none;
+    min-width: unset;
+    max-width: unset;
     margin: 0;
   }
   .wrapper {
-    min-width: none;
+    min-width: unset;
   }
   .header > div {
     display: flex;
