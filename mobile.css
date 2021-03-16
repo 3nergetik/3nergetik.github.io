@@ -143,6 +143,10 @@
   .div.vpncont {
     margin: 0;
   }
+  .vpnremote {
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
 
 @media (max-width:540px) {
