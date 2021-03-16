@@ -261,6 +261,7 @@
   }
   div.usercard {
     width: 100%;
+    margin: 0;
   }
   footer {
     position: relative;
