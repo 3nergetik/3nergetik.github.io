@@ -140,6 +140,7 @@
     width: 100%;
     height: unset;
     margin: 0;
+    margin-bottom: 30px;
     padding: 20px;
   }
   div.pcinfo>h3 {
