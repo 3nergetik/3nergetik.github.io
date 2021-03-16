@@ -265,6 +265,7 @@
   }
   .footer {
     position: relative;
+    height: unset;
   }
   .footer > div {
     width: unset;
