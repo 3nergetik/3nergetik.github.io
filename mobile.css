@@ -3,6 +3,10 @@
   min-width: unset;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header-burger {
   display: none;
   position: relative;
