@@ -9,5 +9,4 @@ headerBurger.onclick = function () {
     headerMenu.classList.toggle('active');
     body.classList.toggle('lock');
 }
-
-dropdownActions.innerHTML = pcInfo.parentNode.innerHTML;
+pcInfo.appendChild(dropdownActions);
