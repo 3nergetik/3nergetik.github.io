@@ -113,6 +113,9 @@
     top: 0;
     right: 0;
   }
+  div.ay {
+    min-height: unset;
+  }
   div.ay h1 {
     text-align: center;
     margin-left: 0;
