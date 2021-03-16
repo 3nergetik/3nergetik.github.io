@@ -99,6 +99,11 @@
   }
   #avatar {
     margin: 0;
+    width: 75px;
+    font-size: none;
+  }
+  #avatar img {
+    width: 100%;
   }
   #closeadmpanel {
     top: 0;
