@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+.copypasta {
+  padding: 0;
+}
+
 .header-burger {
   display: none;
   position: relative;
