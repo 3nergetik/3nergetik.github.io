@@ -131,7 +131,8 @@
     display: none;
   }
   #closeadmpanel {
-    position: relative;  
+    position: relative;
+    padding: 5px;
   }
   #avatar {
     margin: 0;
