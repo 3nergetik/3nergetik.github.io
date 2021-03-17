@@ -325,8 +325,10 @@
   }
   .forvpnsteps > span:last-child {
     padding-right: 10px;
+    border-radius: 0 10px 10px 0;
   }
   .forvpnsteps > span:first-child {
     padding-left: 10px;
+    border-radius: 10px 0 0 10px;
   }
 }
