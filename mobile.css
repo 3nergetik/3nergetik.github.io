@@ -317,7 +317,9 @@
     text-align: center;
     flex-basis: 25%;
   }
-  .forvpnsteps>span:first-child {
+  .forvpnsteps>span:first-child,
+  .forvpnsteps>span:last-child {
     padding-left: none;
+    border-radius: 0 10px 10px 0;
   }
 }
