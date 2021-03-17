@@ -235,7 +235,12 @@
     white-space: unset;
     padding: 20px 10px;
     text-align: center;
-  }  
+  }
+   .vpnremote li.active {
+    top: 0;
+    padding: 20px 10px;
+    text-align: center;
+  }
   .forvpnsteps {
     display: flex;
     justify-content: center;
@@ -315,9 +320,6 @@
   #navi li.active {
     padding: 10px;
   }
-  .vpnremote li.active {
-    top: 0;
-  }
   .filter > span > span {
     display: none;
   }
@@ -342,8 +344,5 @@
   div.vpncont {
     padding: 10px;
   }
-  .vpnremote li.active {
-    padding: 20px 10px;
-    text-align: center;
-  }
+ 
 }
