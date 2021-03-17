@@ -320,4 +320,7 @@
   .forvpnsteps>span:last-child {
     padding-right: none;
   }
+  .forvpnsteps>span:first-child {
+    padding-left: none;
+  }
 }
