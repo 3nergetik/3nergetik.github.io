@@ -310,6 +310,9 @@
   #navi li.active {
     padding: 10px;
   }
+  .vpnremote li.active {
+    top: 0;
+  }
   .filter > span > span {
     display: none;
   }
