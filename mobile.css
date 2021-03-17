@@ -307,4 +307,7 @@
   #navi li.active {
     padding: 10px;
   }
+  .filter > span > span {
+    display: none;
+  }
 }
