@@ -316,6 +316,9 @@
   .filter > span:nth-child(n + 3) > svg:not(:first-child) {
     display: none;    
   }
+  .forvpnsteps {
+    padding: 0;
+  }
   .forvpnsteps > span {
     text-align: center;
     flex-basis: 25%;
