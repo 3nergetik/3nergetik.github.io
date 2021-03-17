@@ -236,6 +236,9 @@
     justify-content: center;
     align-items: center;
   }
+  .forvpnsteps > span {
+    padding: 10px;
+  }
   div.modalcont2 {
     min-width: unset;
     padding: 20px;
