@@ -310,4 +310,7 @@
   .filter > span > span {
     display: none;
   }
+  .filter > span:nth-child(n + 3) > svg:not(:first-child) {
+    display: none;    
+  }
 }
