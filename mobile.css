@@ -232,8 +232,10 @@
   .vpnremote li {
     flex-basis: 50%;
     white-space: unset;
-    padding: 20px 7px;
-  }
+    padding: 20px 10px;
+    text-align: center;
+
+  }  
   .forvpnsteps {
     display: flex;
     justify-content: center;
@@ -315,9 +317,6 @@
   }
   .vpnremote li.active {
     top: 0;
-  }
-  .vpnremote li {
-    text-align: center;
   }
   .filter > span > span {
     display: none;
