@@ -163,7 +163,7 @@
   }
   div.ay {
     min-height: unset;
-    margin: 20px;
+    margin: 15px;
   }
   div.ay h1 {
     margin-left: 0;
@@ -310,6 +310,9 @@
 }
 
 @media (max-width:540px) {
+  div.ay {
+    margin: 20px;
+  }
   div.pcinfo > h3 {
     white-space: pre-line;
   }
