@@ -320,6 +320,7 @@
   .forvpnsteps>span:first-child,
   .forvpnsteps>span:last-child {
     padding-left: none;
+    padding-right: none;
     border-radius: 0 10px 10px 0;
   }
   .forvpnsteps>span:first-child {
