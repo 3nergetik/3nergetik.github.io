@@ -317,4 +317,7 @@
     text-align: center;
     flex-basis: 25%;
   }
+  .forvpnsteps>span:first-child {
+    padding-left: none;
+  }
 }
