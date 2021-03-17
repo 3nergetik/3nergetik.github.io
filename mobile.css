@@ -222,6 +222,9 @@
     padding: 15px;
     margin: 0;
   }
+  .vpncont > active > p {
+    text-align: center;
+  } 
   .vpnremote {
     margin-top: 0;
     margin-left: 0;
