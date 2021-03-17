@@ -316,6 +316,9 @@
   .vpnremote li.active {
     top: 0;
   }
+  .vpnremote li {
+    text-align: center;
+  }
   .filter > span > span {
     display: none;
   }
@@ -339,5 +342,9 @@
   }
   div.vpncont {
     padding: 10px;
+  }
+  .vpnremote li.active {
+    padding: 20px 10px;
+    text-align: center;
   }
 }
