@@ -322,4 +322,7 @@
     padding-left: none;
     border-radius: 0 10px 10px 0;
   }
+  .forvpnsteps>span:first-child {
+    border-radius: 10px 0 10px 0;
+  }
 }
