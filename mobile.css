@@ -321,9 +321,9 @@
     flex-basis: 25%;
   }
   .forvpnsteps > span:last-child {
-    padding-right: none;
+    padding-right: 10px;
   }
   .forvpnsteps > span:first-child {
-    padding-left: none;
+    padding-left: 10px;
   }
 }
