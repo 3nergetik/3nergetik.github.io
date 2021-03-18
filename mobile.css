@@ -400,4 +400,7 @@
   a.dwlds {
     padding: 10px;
   }
+  div.usercard>div.icon {
+    position: static;
+  }
 }
