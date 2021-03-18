@@ -377,6 +377,7 @@
   .step {
     position: relative !important;
     float: unset !important;
+    margin-right: 0;
   }
   .step.link.yellow.win.w30,
   .step.w50.dit.informe {
