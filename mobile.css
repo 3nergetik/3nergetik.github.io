@@ -374,7 +374,7 @@
   }
   .step {
     position: relative !important;
-    float: unset;
+    float: unset important;
   }
   .step.link.yellow.win.w30,
   .step.w50.dit.informe {
