@@ -371,16 +371,14 @@
     flex-direction: column;
     height: unset !important;
   }
-  .step.link.red.win.w30 {
+  .step.link {
     position: relative !important;
   }
   .step.link.yellow.win.w30 {
     position: relative !important;
-    left: 0 !important;
     top: 0 !important;
   }
   .step.tooltiped.win.blue.w30.informe {
-    position: relative !important;
     left: 0 !important;
   }
   .w30 {
