@@ -382,7 +382,8 @@
     left: 0 !important;
     top: 0 !important;
   }
-  .w30 {
+  .w30,
+  .w50 {
     width: unset !important;
   }
 }
