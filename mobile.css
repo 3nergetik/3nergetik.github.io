@@ -328,6 +328,9 @@
   div.pcinfo > h3 {
     white-space: pre-line;
   }
+  div.pcinfo {
+    padding: 10px;
+  }
   .ineedmodalplz.ema {
     width: 100%;
   }
