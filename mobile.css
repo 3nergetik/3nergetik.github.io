@@ -407,6 +407,9 @@
     padding-left: none;
     padding: 10px;
   }
+  div.usercard > div.icon {
+    width: unset;
+  }
   div.ava {
     position: static;
   }
