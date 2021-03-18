@@ -120,6 +120,9 @@
   #navi li {
     padding: 20px;
   }
+  #nav li:nth(:last-child) {
+    border-bottom: 1px solid #333;
+  }
   #navi li.active {
     top: 0;
     padding: 20px;
