@@ -403,4 +403,7 @@
   div.usercard>div.icon {
     position: static;
   }
+  div.usercard {
+    padding-left: 0;
+  }
 }
