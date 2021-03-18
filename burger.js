@@ -3,7 +3,6 @@ const headerMenu = document.getElementById('navi');
 const body = document.querySelector('body');
 const pcInfo = document.querySelector('div.pcinfo');
 const dropdownActions = document.querySelector('.dropdown-actions');
-const navLi = document.querySelector('#navi li');
 
 headerBurger.onclick = () => {
     headerBurger.classList.toggle('open-menu');
@@ -13,7 +12,7 @@ headerBurger.onclick = () => {
 
 pcInfo.appendChild(dropdownActions);
 
-navLi.onclick = () => {
+headerMenu.onclick = () => {
     headerMenu.classList.remove('show-nav');
     body.classList.remove('lock');
 }
