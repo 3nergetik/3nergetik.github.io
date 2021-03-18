@@ -220,7 +220,7 @@
     z-index: 3;
     transform: scale(1);
     position: static;
-    opacity: 1;
+    opacity: 1 !important;
     border-radius: 3px;
     min-width: unset;
   }
