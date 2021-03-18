@@ -258,6 +258,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 20px auto;
   }
   .forvpnsteps > span {
     padding: 10px;
