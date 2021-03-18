@@ -389,4 +389,9 @@
   .w50 {
     width: unset !important;
   }
+  div.calevent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
