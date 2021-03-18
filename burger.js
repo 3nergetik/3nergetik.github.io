@@ -14,5 +14,6 @@ headerBurger.onclick = () => {
 pcInfo.appendChild(dropdownActions);
 
 navLi.onclick = () => {
-    headerMenu.classList.remove('show-nav');   
+    headerMenu.classList.remove('show-nav');
+    body.classList.remove('lock');
 }
