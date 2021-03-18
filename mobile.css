@@ -240,6 +240,7 @@
     white-space: unset;
     padding: 20px 10px;
     text-align: center;
+    z-index: 2;
   }
    .vpnremote li.active {
     top: 0;
