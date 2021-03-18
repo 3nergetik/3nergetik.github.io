@@ -3,7 +3,7 @@ const headerMenu = document.getElementById('navi');
 const body = document.querySelector('body');
 const pcInfo = document.querySelector('div.pcinfo');
 const dropdownActions = document.querySelector('.dropdown-actions');
-const navLi = document.querySelector('#navi.li');
+const navLi = document.querySelector('#navi li');
 
 headerBurger.onclick = () => {
     headerBurger.classList.toggle('open-menu');
