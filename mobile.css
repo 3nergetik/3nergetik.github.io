@@ -382,4 +382,7 @@
     position: relative !important;
     left: 0 !important;
   }
+  .w30 {
+    width: unset !important;
+  }
 }
