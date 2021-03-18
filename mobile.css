@@ -81,6 +81,7 @@
   .content_wrapper {
     padding: 10px 0;
     flex-grow: 1;
+    border-top: none;
   }
   .content_wrapper > div {
     width: 100%;
