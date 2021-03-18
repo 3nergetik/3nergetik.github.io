@@ -412,7 +412,7 @@
   }
   div.ava {
     position: static;
-    margin: 0 auto;
+    margin: 0 auto 15px;
   }
   div.usercard h2 {
     text-align: center;
