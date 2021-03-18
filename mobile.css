@@ -369,7 +369,7 @@
   .isotoped.allreadyiso {
     display: flex;
     flex-direction: column;
-    height: unset;
+    height: unset !important;
   }
   .step.link.red.win.w30 {
     position: relative !important;
