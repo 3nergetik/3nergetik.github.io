@@ -17,3 +17,4 @@ navLi.onclick = () => {
     headerMenu.classList.remove('show-nav');
     body.classList.remove('lock');
 }
+console.log(navLi);
