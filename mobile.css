@@ -412,6 +412,7 @@
   }
   div.ava {
     position: static;
+    margin: 0 auto;
   }
   div.usercard h2 {
     text-align: center;
