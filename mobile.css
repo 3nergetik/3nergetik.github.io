@@ -407,4 +407,7 @@
     padding-left: none;
     padding: 10px;
   }
+  div.ava {
+    position: static;
+  }
 }
