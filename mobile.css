@@ -366,4 +366,12 @@
   div.vpncont {
     padding: 10px;
   }
+  .isotoped.allreadyiso {
+    display: flex;
+    flex-direction: column;
+    height: unset;
+  }
+  .step.link.red.win.w30 {
+    position: relative !important;
+  }
 }
