@@ -371,7 +371,7 @@
     flex-direction: column;
     height: unset !important;
   }
-  .step.link {
+  .step {
     position: relative !important;
   }
   .step.link.yellow.win.w30 {
