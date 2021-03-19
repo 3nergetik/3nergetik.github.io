@@ -17,13 +17,11 @@ const showModal = () => {
 headerBurger.onclick = () => {
   nav.classList.toggle('show-menu');
   headerMenu.classList.toggle('show-menu-item');
-  body.classList.toggle('lock');
   headerBurger.classList.toggle('open-menu');
 }
 
 popupClose.onclick = () => {
   popup.classList.remove('active');
-  body.classList.remove('lock');
 }
 
 sideButton.onclick = (evt) => {
