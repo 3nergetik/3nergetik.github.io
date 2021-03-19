@@ -935,6 +935,9 @@ body {
     flex-basis: 100%;
     padding: 90px 15px 15px;
   }
+  .trend-item-content {
+    width: 100%;
+  }
   .trend-item:not(:last-child) {
     margin-bottom: 4px;
   }
