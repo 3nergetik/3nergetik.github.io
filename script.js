@@ -12,7 +12,7 @@ const showModal = () => {
   body.classList.add('lock');
 }
 
-setTimeout(showModal, delay_popup);
+/* setTimeout(showModal, delay_popup); */
 
 headerBurger.onclick = () => {
   nav.classList.toggle('show-menu');
