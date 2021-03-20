@@ -5,11 +5,12 @@ const sideButton = document.querySelector('.side-button');
 const nav = document.querySelector('nav');
 const body = document.querySelector('body');
 const headerMenu = document.querySelector('.header-menu');
+const headerBody = document.querySelector('.header-body');
+
 const delay_popup = 5000;
 
 const showModal = () => {
   popup.classList.add('active');
-  body.classList.add('lock');
 }
 
 /* setTimeout(showModal, delay_popup); */
@@ -18,6 +19,7 @@ headerBurger.onclick = () => {
   nav.classList.toggle('show-menu');
   headerMenu.classList.toggle('show-menu-item');
   headerBurger.classList.toggle('open-menu');
+  headerBody.classList.toggle('show-item');
 }
 
 popupClose.onclick = () => {
@@ -27,5 +29,6 @@ popupClose.onclick = () => {
 sideButton.onclick = (evt) => {
   evt.preventDefault();
   popup.classList.remove('active');
-  body.classList.remove('lock');
 }
+
+console.log(headerBody);
