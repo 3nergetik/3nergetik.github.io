@@ -854,7 +854,7 @@ body {
     width: 30px;
   }
   .header {
-    padding-top: 10px;
+    padding-top: 0;
     padding-bottom: 75px;
   }
   .header-menu-item:nth-child(n + 2) {
