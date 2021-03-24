@@ -268,7 +268,7 @@ body {
 
 .header-burger.open-menu span {
   opacity: 0; 
-  transition: 0.3s; 
+  transition: 0.2s; 
 }
 .header-burger.open-menu:before {
   transform: rotate(45deg);
