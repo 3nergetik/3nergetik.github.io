@@ -63,7 +63,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   right: 0;
   transition: 1s;
@@ -74,7 +74,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 10px;
+  top: 0;
 }
 
 .lock {
