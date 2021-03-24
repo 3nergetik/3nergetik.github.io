@@ -29,14 +29,11 @@ body {
 .header {
 	padding: 25px 0 125px 0;
 	position: relative;
-	background-image: url('https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
+	background: url('https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg') no-repeat center center;
 	background-size: cover;
 	background-color: black;
 	width: 100%;
 	z-index: 1;
-	text-align: center;
 }
 
 .popup {
@@ -99,7 +96,7 @@ body {
 
 .popup-form {
   background-color: #fff;
-  padding: 0 25px 25px;
+  padding: 15px 25px;
 }
 
 .popup-select {
@@ -113,9 +110,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   font-family: inherit;
-  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/svg/form-arrows.svg);
-  background-repeat: no-repeat;
-  background-position: right 11px center;
+  background: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/svg/form-arrows.svg) no-repeat right 11px center;
   background-size: 9px;
 }
 
@@ -132,9 +127,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/svg/form-empty-circle.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/svg/form-empty-circle.svg) no-repeat center center;
   background-size: 20px 20px;
   vertical-align: middle;
 }
@@ -159,9 +152,11 @@ body {
 }
 
 .popup-close {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
+  margin-left: auto;
+  margin-bottom: 7px;
 }
 
 .popup-close::before,
@@ -324,6 +319,8 @@ body {
 
 .trend {
   display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .trend-item {
@@ -723,7 +720,7 @@ body {
 .goods-item {
   border: 2px solid #b59f5a;
   padding: 25px;
-  flex-basis: 30%;
+  flex-basis: calc(33% - 10px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -731,6 +728,7 @@ body {
 
 .goods-img {
   margin-bottom: 25px;
+  width: 100%;
 }
 
 .goods-price {
@@ -746,7 +744,6 @@ body {
   font-weight: bold;
   display: block;
   line-height: 24px;
-
 }
 
 .old-price {
@@ -773,6 +770,16 @@ body {
 	cursor: pointer;
 	background-color: #323232;
 	transition: all 0.3s ease;
+}
+
+.goods-span {
+  color: #b59f5a;
+  text-decoration: none;
+}
+
+.goods-span:hover {
+  border-bottom: 1px solid #b59f5a;
+  transition: 0.3s;
 }
 
 .footer {
@@ -851,7 +858,7 @@ body {
   .popup-close::before,
   .popup-close::after {
     height: 3px;
-    width: 30px;
+    width: 20px;
   }
   .header {
     padding-top: 0;
@@ -908,19 +915,16 @@ body {
   }
   .goods {
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 0;
   }
   .goods-item {
-    flex-basis: 48%;
-    padding: 50px 25px;
+    flex-basis: calc(50% - 10px);
   }
   .goods-item:not(:last-child) {
-    margin-bottom: 4%;
+    margin-bottom: 20px;
   }
 }
 
-@media (max-width:540px) {
+@media (max-width:600px) {
   .popup {
     width: 90%;
     margin: 5% auto;
@@ -937,7 +941,7 @@ body {
   }
   .header-logo {
     margin-top: 165px;
-    width: 270px;
+    width: 82%;
   }
   .header-burger {
     margin-left: auto;
@@ -997,26 +1001,16 @@ body {
     margin-top: 50px;
   }
   .goods {
-    width: 100%;
     flex-direction: column;
-    justify-content: center;
   }
   .goods-item {
-    flex-basis: auto;
-  }
-  .goods-item {
+    width: 100%;
     padding: 20px;
   }
   .goods-img {
-    width: 100%;
-  }
-  .goods-item:first-child {
-    margin-right: 0;
+    width: unset;
   }
   .goods-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  .goods-item:last-child {
-    margin-top: 0;
+    margin-bottom: 30px;
   }
 }
