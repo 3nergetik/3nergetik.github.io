@@ -921,6 +921,9 @@ body {
   .goods-item:not(:last-child) {
     margin-bottom: 20px;
   }
+  .header-menu-item a {
+  font-size: 17px;
+  }
 }
 
 @media (max-width:600px) {
@@ -952,7 +955,7 @@ body {
     margin-top: 40px;
   }
   .header-menu-item a {
-    font-size: 18px;
+    font-size: 20px;
   }
   .trend-item {
     flex-basis: 100%;
