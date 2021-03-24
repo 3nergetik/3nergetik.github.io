@@ -228,8 +228,8 @@ body {
 .header-burger {
   display: none;
   position: relative;
-  width: 22px;
-  height: 18px;
+  width: 23px;
+  height: 20px;
   cursor: pointer;
 }
 
@@ -241,7 +241,6 @@ body {
   height: 3px;
   background-color: #fff;
   margin: 0 auto;
-  left: 0;
 }
 
 .header-burger::before,
@@ -250,15 +249,15 @@ body {
 }
 
 .header-burger::before {
-  top: 1px;
-}
-
-.header-burger::after {
-  bottom: 6px;
+  top: 0px;
 }
 
 .header-burger-item {
-  top: 17px;
+  top: 8px;
+}
+
+.header-burger::after {
+  top: 16px;
 }
 
 .header-burger.open-menu span {
