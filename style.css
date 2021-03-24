@@ -229,7 +229,7 @@ body {
   display: none;
   position: relative;
   width: 23px;
-  height: 20px;
+  height: 21px;
   cursor: pointer;
 }
 
@@ -249,15 +249,15 @@ body {
 }
 
 .header-burger::before {
-  top: 0px;
+  top: 1px;
 }
 
 .header-burger-item {
-  top: 8px;
+  top: 9px;
 }
 
 .header-burger::after {
-  top: 16px;
+  top: 17px;
 }
 
 .header-burger.open-menu span {
