@@ -74,7 +74,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 0;
+  top: 10px;
 }
 
 .lock {
@@ -273,12 +273,12 @@ body {
 .header-burger.open-menu:before {
   transform: rotate(45deg);
   transition: 0.3s;
-  top: 0;
+  top: 10px;
 }
 .header-burger.open-menu:after {
   transform: rotate(-45deg);
   transition: 0.3s;
-  top: 0;
+  top: 10px;
 }
 
 .header-title {
