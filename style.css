@@ -267,12 +267,12 @@ body {
 .header-burger.open-menu:before {
   transform: rotate(45deg);
   transition: 0.3s;
-  top: 10px;
+  top: 0;
 }
 .header-burger.open-menu:after {
   transform: rotate(-45deg);
   transition: 0.3s;
-  top: 10px;
+  top: 0;
 }
 
 .header-title {
