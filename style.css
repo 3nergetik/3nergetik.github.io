@@ -875,6 +875,13 @@ body {
     width: 92%;
     line-height: 55px;
   }
+  nav {
+    display: none;
+    transition: 0.5s;
+  }
+  .header-burger {
+    display: block;
+  }
   .articles {
     width: 55%;
   }
@@ -916,16 +923,6 @@ body {
   }
   .header-menu-item a {
   font-size: 17px;
-  }
-}
-
-@media (max-width:768px) {
-  nav {
-    display: none;
-    transition: 0.5s;
-  }
-  .header-burger {
-    display: block;
   }
 }
 
