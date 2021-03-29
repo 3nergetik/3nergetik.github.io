@@ -899,13 +899,6 @@ body {
     width: 100%;
     padding: 50px 35px;
   }
-  nav {
-    display: none;
-    transition: 0.5s;
-  }
-  .header-burger {
-    display: block;
-  }
   .trend {
     flex-wrap: wrap;
   }
@@ -923,6 +916,16 @@ body {
   }
   .header-menu-item a {
   font-size: 17px;
+  }
+}
+
+@media (max-width:768px) {
+  nav {
+    display: none;
+    transition: 0.5s;
+  }
+  .header-burger {
+    display: block;
   }
 }
 
