@@ -862,6 +862,7 @@ body {
   .header {
     padding-top: 0;
     padding-bottom: 75px;
+    background: url('https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/banner-bg-tablet.jpg') no-repeat center center;
   }
   .header-menu-item:nth-child(n + 2) {
     margin: 18px 0 0;  
@@ -937,6 +938,7 @@ body {
   header {
     height: 100vh;
     padding: 0;
+    background: url('https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/banner-mobile.jpg') no-repeat center center;
   }
   .header-body {
     flex-direction: column-reverse;
