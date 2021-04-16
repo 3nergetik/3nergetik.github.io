@@ -301,6 +301,10 @@ body {
 	list-style: none;
 }
 
+.header-menu-item:hover {
+	font-weight: bold;
+}
+
 .header-menu-item a {
 	text-decoration: none;
 	color: white;
