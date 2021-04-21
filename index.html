@@ -7,31 +7,32 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>    
-  <div class="popup" id="cruto">
-    <div class="popup-close">
+<body>  
+  <div class="popup-wrapper">
+    <div class="popup" id="cruto">
+      <div class="popup-close">
+      </div>
+      <form class="popup-form">
+        <h2 class="side-section-title">ваш фидбэк</h2>
+        <p class="popup-text">Как часто вы заходите на сайт</p>
+        <select type="text" class="popup-select">
+          <option value="almost-everyday" class="popup-text" selected>Почти каждый день</option>
+        </select>
+        <p class="popup-text">Вы подписаны на e-mail рассылку?</p>
+        <label for="yes" class="popup-label">
+          <input type="radio" class="popup-radio" id="yes" name="popup-radio" required checked>
+          <span class="checkbox-text popup-text">Да</span>
+        </label>
+        <label for="no" class="popup-label">
+          <input type="radio" class="popup-radio" id="no" name="popup-radio" required>
+          <span class="checkbox-text popup-text">Нет</span>
+        </label>
+        <p class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте</p>
+        <input type="text" class="popup-input" placeholder="Может, побольше рецептов?">
+        <button class="side-button">Отправить</button>
+      </form>
     </div>
-    <form class="popup-form">
-      <h2 class="side-section-title">ваш фидбэк</h2>
-      <p class="popup-text">Как часто вы заходите на сайт</p>
-      <select type="text" class="popup-select">
-        <option value="almost-everyday" class="popup-text" selected>Почти каждый день</option>
-      </select>
-      <p class="popup-text">Вы подписаны на e-mail рассылку?</p>
-      <label for="yes" class="popup-label">
-        <input type="radio" class="popup-radio" id="yes" name="popup-radio" required checked>
-        <span class="checkbox-text popup-text">Да</span>
-      </label>
-      <label for="no" class="popup-label">
-        <input type="radio" class="popup-radio" id="no" name="popup-radio" required>
-        <span class="checkbox-text popup-text">Нет</span>
-      </label>
-      <p class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте</p>
-      <input type="text" class="popup-input" placeholder="Может, побольше рецептов?">
-      <button class="side-button">Отправить</button>
-    </form>
-    </div>
-  </div>
+  </div>    
   <header class="header">
     <div class="container">
       <div class="header-body">
@@ -212,8 +213,8 @@
               <p class="articles-main">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
             </section>
           </article>
-        </main>
-        <aside class="side">
+    </main>
+    <aside class="side">
           <section class="side-section">
             <h3 class="side-section-title">новые посты</h3>
             <article class="posts-item">
@@ -313,7 +314,7 @@
               </li>
             </ul>
           </section>
-        </aside>
+    </aside>
   </div>
   <h2 class="side-section-title">наши изделия</h2>
   <section class="goods container">
