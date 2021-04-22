@@ -875,6 +875,7 @@ body {
     padding-top: 0;
     padding-bottom: 75px;
     background: url('https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/banner-bg-tablet.jpg') no-repeat center center;
+    background-size: cover;
   }
   .header-menu-item:nth-child(n + 2) {
     margin: 18px 0 0;  
