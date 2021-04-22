@@ -747,7 +747,7 @@ body {
 .goods-items-body {
   margin-top: -45px;
   border: 2px solid #b59f5a;
-  padding: 15% 5% 5%;
+  padding: 50px 20px 20px;
   flex-grow: 1;
 }
 
@@ -1023,7 +1023,7 @@ body {
     padding: 0;
   }
   .goods-items:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   .goods-items-body {
     margin-top: -60px;
