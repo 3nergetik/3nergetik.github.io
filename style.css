@@ -1029,4 +1029,6 @@ body {
   .goods-items-body {
     margin-top: -60px;
   }
+  .footer-copyright-link {
+    margin: 45px auto;
 }
