@@ -826,10 +826,6 @@ body {
 	list-style: none;
 }
 
-.footer-main-item:not(:first-child) {
-	margin-left: 8%;
-}
-
 .footer-main-item-link {
 	display: block;
 	width: 20px;
