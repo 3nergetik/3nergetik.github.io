@@ -361,6 +361,10 @@ body {
   align-items: flex-end;
 }
 
+.trend-item:nth-child(-n + 3) {
+  margin-right: 4px;
+}
+
 .trend-item::before {
   content: "";
   display: block;
