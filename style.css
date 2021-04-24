@@ -819,7 +819,7 @@ body {
 
 .footer-main {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 31px 70px;
 	background-color: #f5f7f6;
@@ -833,6 +833,10 @@ body {
 	background-size: 20px;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.footer-main-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .twitter {
@@ -879,6 +883,9 @@ body {
   }
   .header-menu-item:nth-child(n + 2) {
     margin: 18px 0 0;  
+  }
+  .header-menu-item a {
+    font-size: 17px;
   }
   .header-logo {
     width: 157px;
@@ -949,8 +956,13 @@ body {
   .goods-items:not(:last-child) {
     margin-bottom: 20px;
   }
-  .header-menu-item a {
-  font-size: 17px;
+  .footer-main-item-link {
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+  }
+  .footer-main-item:not(:last-child) {
+    margin-right: 35px;
   }
 }
 
@@ -1047,12 +1059,10 @@ body {
   .goods-items-body {
     margin-top: -60px;
   }
-  .footer-main-item-link {
-    width: 25px;
-    height: 25px;
-    background-size: 25px;
-  }
   .footer-copyright-link {
     margin: 45px auto;
+  }
+  .footer-main-item:not(:last-child) {
+    margin-right: 25px;
   }
 }
