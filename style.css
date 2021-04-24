@@ -72,9 +72,20 @@ body {
   margin-bottom: 20px;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
   font-family: inherit;
   background: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/svg/form-arrows.svg) no-repeat right 11px center;
   background-size: 9px;
+}
+
+.popup-select:focus {
+  outline: none;
+}
+
+.popup-select option {
+  width: 100%;
+  padding: 10px;
+  font-family: inherit;
 }
 
 .popup-radio {
