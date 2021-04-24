@@ -925,6 +925,7 @@ body {
   }
   .trend-item {
     flex-basis: calc(50% - 5px);
+    flex-grow: 1;
   }
   .trend-item:nth-child(odd) {
     margin-right: 4px;
