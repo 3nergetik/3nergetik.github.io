@@ -819,7 +819,7 @@ body {
 
 .footer-main {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	padding: 31px 15px;
 	background-color: #f5f7f6;
@@ -827,7 +827,7 @@ body {
 }
 
 .footer-main-item:not(:first-child) {
-	margin-left: 32px;
+	margin-left: 8%;
 }
 
 .footer-main-item-link {
@@ -1050,6 +1050,11 @@ body {
   }
   .goods-items-body {
     margin-top: -60px;
+  }
+  .footer-main-item-link {
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
   }
   .footer-copyright-link {
     margin: 45px auto;
