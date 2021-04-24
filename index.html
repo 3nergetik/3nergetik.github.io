@@ -17,6 +17,7 @@
         <p class="popup-text">Как часто вы заходите на сайт</p>
         <select type="text" class="popup-select">
           <option value="almost-everyday" class="popup-text" selected>Почти каждый день</option>
+          <option value="every week" class="popup-text">Каждую неделю</option>
         </select>
         <p class="popup-text">Вы подписаны на e-mail рассылку?</p>
         <label for="yes" class="popup-label">
@@ -28,7 +29,10 @@
           <span class="checkbox-text popup-text">Нет</span>
         </label>
         <p class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте</p>
-        <textarea id="popup-input" placeholder="Может, побольше рецептов?"></textarea>
+        <label for="popup-input">
+          <span class="visually-hidden">Введите ваши пожелания к контенту сайта</span>
+          <textarea id="popup-input" placeholder="Может, побольше рецептов?"></textarea>
+        </label>
         <button class="side-button">Отправить</button>
       </form>
     </div>
