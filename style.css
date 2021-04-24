@@ -1000,9 +1000,6 @@ body {
   .trend-item:not(:last-child) {
     margin-bottom: 4px;
   }
-  .trend-item:last-child {
-    margin-bottom: 45px;
-  }
   .trend-item:nth-child(odd) {
     margin-right: 0;
   }
